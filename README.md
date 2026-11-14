@@ -1,13 +1,15 @@
 # PS4 Web Host
 
 This is a personal fork of [ArabPixel/WebKitty](https://github.com/ArabPixel/WebKitty),
-with a renamed interface and a customized default color theme. Upstream code and
+with a renamed interface and a customized default dashboard theme. Upstream code and
 credits remain below. This fork is distributed under AGPL-3.0-or-later; see
 [LICENSE](LICENSE). Changes to this fork: repository/interface name and default
-visual theme.
+visual theme and layout presentation. Other color themes and layouts remain available.
 
 The public GitHub Pages host uses HTTPS. Some upstream features require an HTTP
 host; consult upstream documentation and do not assume all features work on Pages.
+
+For static dashboard checks, run `python -m unittest discover -s tests -v`.
 
 ---
 

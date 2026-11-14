@@ -6,6 +6,32 @@ body {
     
 }
 
+.host-identity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    text-align: left;
+}
+
+.host-identity__mark {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.host-identity__eyebrow {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.host-identity h1 {
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.host-identity p {
+    font-size: 11px;
+}
+
 .mainContainer {
     height: 100vh;
     /* Ensure main container takes full viewport height */

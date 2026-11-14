@@ -6,6 +6,10 @@ body {
     
 }
 
+.host-identity {
+    display: none;
+}
+
 .mainContainer {
     height: 100vh;
     /* Ensure main container takes full viewport height */
