@@ -4,7 +4,9 @@ This is a personal fork of [ArabPixel/WebKitty](https://github.com/ArabPixel/Web
 with a renamed interface and a customized default dashboard theme. Upstream code and
 credits remain below. This fork is distributed under AGPL-3.0-or-later; see
 [LICENSE](LICENSE). Changes to this fork: repository/interface name and default
-visual theme and layout presentation. Other color themes and layouts remain available.
+visual theme, layout presentation, and personal branding. Other color themes and layouts
+remain available. Copyright notices, contributor credits, and the upstream source remain
+attributed; the upstream HTTP host is retained where needed for compatibility.
 
 The public GitHub Pages host uses HTTPS. Some upstream features require an HTTP
 host; consult upstream documentation and do not assume all features work on Pages.

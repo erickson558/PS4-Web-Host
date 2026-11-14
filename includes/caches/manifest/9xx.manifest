@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# PS4 Web Host UI revision 2026-11-14
+# PS4 Web Host branding revision 2026-11-14
 # v2.6
 # Generated on 2026-11-14
 
@@ -33,6 +33,7 @@ CACHE:
 ../../../includes/js/languages/es.js
 ../../../includes/assets/icons/webkitty.svg
 ../../../includes/assets/icons/favicon.ico
+../../../includes/assets/icons/ps4-web-host.svg
 ../../../includes/js/deliverPayload.js
 ../../../includes/payloads/Bins/WebRTE.bin
 ../../../includes/payloads/Bins/np-fake-signin-ps4.elf

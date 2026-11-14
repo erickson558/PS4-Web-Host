@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# PS4 Web Host UI revision 2026-11-14
+# PS4 Web Host branding revision 2026-11-14
 # v4
 # Generated on 2026-11-14
 
@@ -10,6 +10,7 @@ CACHE:
 ../../../includes/assets/icons/cat-paw-btns.svg
 ../../../includes/assets/icons/cat-paw.svg
 ../../../includes/assets/icons/favicon.ico
+../../../includes/assets/icons/ps4-web-host.svg
 ../../../includes/assets/icons/peeking-cat.svg
 ../../../includes/assets/icons/cat-face.svg
 ../../../includes/assets/icons/webkitty.svg

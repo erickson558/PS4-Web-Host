@@ -54,6 +54,17 @@ class DashboardTests(unittest.TestCase):
                 self.assertIn("../../../includes/css/colors/default.css", content)
                 self.assertIn("../../../includes/css/layouts/index.css", content)
                 self.assertIn("../../../includes/css/layouts/compact.css", content)
+                self.assertIn("../../../includes/assets/icons/ps4-web-host.svg", content)
+
+    def test_primary_branding_uses_personal_host_name(self):
+        index = (ROOT / "index.html").read_text(encoding="utf-8")
+        cache = (ROOT / "cache.html").read_text(encoding="utf-8")
+        exploit = (ROOT / "exploit.html").read_text(encoding="utf-8")
+        self.assertIn("<title>PS4 Web Host</title>", index)
+        self.assertIn("includes/assets/icons/ps4-web-host.svg", index)
+        self.assertNotIn("Powered by WebKitty", index)
+        self.assertIn("<title>PS4 Web Host - Caching</title>", cache)
+        self.assertIn("<h4>PS4 Web Host</h4>", exploit)
 
 
 if __name__ == "__main__":
