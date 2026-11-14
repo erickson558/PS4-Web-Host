@@ -266,3 +266,68 @@ input[type="radio"]:checked {
     border-color: #d1d5db;
     /* Approximation for gray-300 */
 }
+
+/* Personal fork's default theme; the alternative color themes remain available. */
+.bg-gray-900 {
+    background-color: #071d38;
+}
+
+.bg-gray-800,
+#initial-screen.compact {
+    background-color: #103653 !important;
+}
+
+.bg-gray-700 {
+    background-color: #1b4c65;
+}
+
+.bg-gray-700\/60 {
+    background-color: rgba(27, 76, 101, 0.75);
+}
+
+.bg-blue-600,
+.fwSelected {
+    background-color: #126b85;
+}
+
+.hover\:bg-gray-700:hover {
+    background-color: #245c73;
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: #0e576c;
+}
+
+#ps-logo {
+    fill: #8fe6dc !important;
+}
+
+#ps-logo-container {
+    border: 2px solid #65cfc2;
+    background-color: #103653;
+    -webkit-box-shadow: 0 0 0 12px rgba(101, 207, 194, 0.1);
+    box-shadow: 0 0 0 12px rgba(101, 207, 194, 0.1);
+}
+
+#exploit-status-panel,
+#choosejb-initial {
+    border: 1px solid #34718a;
+}
+
+input[type="radio"]:checked {
+    background: #65cfc2;
+}
+
+.tabs button[aria-selected="true"] {
+    border-color: #8fe6dc;
+    color: #8fe6dc;
+    border-bottom-color: #8fe6dc;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 2px solid #aaf7ed;
+    outline-offset: 3px;
+}
